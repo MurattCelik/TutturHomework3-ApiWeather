@@ -1,0 +1,18 @@
+#!/bin/bash/
+
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin/
+
+#openweathermap isimli apiden sıcaklık alıyor
+
+mesaj=$(curl http://api.openweathermap.org/data/2.5/weather\?id\=745044\&units\=metric\&APPID\=ed4b3f95a4b618d37d7a2d31c9fbb1cb | jsawk 'return this.main.temp')  #burda hava durumunun sıcaklığını alıyor sadece
+
+
+echo istanbul sıcaklık $mesaj
+
+tarih=$(date +%c)				 #burda gün,ayın kaçıncı günü,hangi ay,saat ve yıl kodu
+echo $tarih
+
+
+t update " istanbulda sıcaklık: $mesaj $tarih"   #twittera anlık tuttuğumuz hava sıcaklığının yolluyoruz.  #t uygulaması ile twit atılıyor
+ 
+echo twit başarıyla atıldı
