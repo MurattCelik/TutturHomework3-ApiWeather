@@ -4,6 +4,8 @@
         
 ####         Shell Script ile belli bir siteden curl kullanarak hava durumunun Apisini aldıktan sonra jsawk yardımı ile sadece sıcaklığını döndürüyoruz.Daha sonra oluşturduğumuz twitter uygulamasıyla Twitter Apisini kullanarak t uygulamasına bağlayarak Crontab ayarlı belirlediğimiz zamanlarda tanımlı Twitter hesabına anlık sıcaklık otomatikmen aktarılıyor.
 
+////////////////////////////////////////////
+
 #####Gerekli İşlemler
 
   **1-**Hava Durumu Apisi
