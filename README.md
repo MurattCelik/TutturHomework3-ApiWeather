@@ -2,7 +2,7 @@
  
 ##Shell Scrip İle Hava Durumunu Twittera Yazdırma
         
-####         Shell Script ile belli bir siteden Api ile hava durumunu alıyoruz ,daha sonra jsawk yardımı ile sadece sıcaklığını döndürüyoruz ve t uygulaması ile Crontab ayarlı olarak belirli zamanlarda tanımlı Twitter hesabına anlık sıcağı yazdırıyoruz.
+####         Shell Script ile belli bir siteden curl kullanarak hava durumunun Apisini aldıktan sonra jsawk yardımı ile sadece sıcaklığını döndürüyoruz.Daha sonra oluşturduğumuz twitter uygulamasıyla Twitter Apisini kullanarak t uygulamasına bağlayarak Crontab ayarlı belirlediğimiz zamanlarda tanımlı Twitter hesabına anlık sıcaklık otomatikmen aktarılıyor.
 
 #####Gerekli İşlemler
 
@@ -57,7 +57,7 @@ yazdırıyoruz
    
 Crontab Unix sistemlerinde zaman bazlı çalışan bir görev planlayıcısıdır.
 
-Bizim yaptırmak isteğimiz işlem ise belirlediğimiz zaman aralıklarında çalşması için CronTab Oluştrmaktır. 
+Bizim yaptırmak isteğimiz işlem ise belirlediğimiz zaman aralıklarında çalşması için CronTab Oluşturmaktır. 
      
      
      
