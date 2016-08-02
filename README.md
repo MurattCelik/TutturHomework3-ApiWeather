@@ -18,6 +18,7 @@
 
  
   **1-Hava Durumu Apisi**
+  
 Gerekli olan hava durumun Apisini almamız için herhangi bir hava durumu sitesine üye
 olmamız gerekiyor.Bu kod için openweathermap isimli siteye üye olduktan sonra oluşturduğumuz 
 uygulama ile hava durumun Apisini alıyoruz.
