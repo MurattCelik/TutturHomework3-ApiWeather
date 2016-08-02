@@ -18,15 +18,13 @@
 
  
   **1-Hava Durumu Apisi**
-   
-           Gerekli olan hava durumun Apisini almamız için herhangi bir hava durumu sitesine üye
+Gerekli olan hava durumun Apisini almamız için herhangi bir hava durumu sitesine üye
 olmamız gerekiyor.Bu kod için openweathermap isimli siteye üye olduktan sonra oluşturduğumuz 
 uygulama ile hava durumun Apisini alıyoruz.
     
     
   **2-Jsawk**
-   
-           Aldığımız hava durumun Apisi ile hava durumuyla ilgili her detay veriliyor ama istediğimiz sadece havanın sıcaklığı ve burda
+Aldığımız hava durumun Apisi ile hava durumuyla ilgili her detay veriliyor ama istediğimiz sadece havanın sıcaklığı ve burda
            
 jsawk devreye giriyor.Jsawk yardımıyla sadece sıcaklığı döndürüyoruz.
        
