@@ -1,18 +1,19 @@
-#!/bin/bash/
+#!/bin/bash/						#dosya içeriği
 
-PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin/
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbi/	#görev planlayıcısının(crontab) yolu,istediğimiz zaman aralıklarında çalışması için. 
 
-#openweathermap isimli apiden sıcaklık alıyor
-
-mesaj=$(curl http://api.openweathermap.org/data/2.5/weather\?id\=745044\&units\=metric\&APPID\=ed4b3f95a4b618d37d7a2d31c9fbb1cb | jsawk 'return this.main.temp')  #burda hava durumunun sıcaklığını alıyor sadece
-
-
-echo istanbul sıcaklık $mesaj
-
-tarih=$(date +%c)				 #burda gün,ayın kaçıncı günü,hangi ay,saat ve yıl kodu
-echo $tarih
-
-
-t update " istanbulda sıcaklık: $mesaj $tarih"   #twittera anlık tuttuğumuz hava sıcaklığının yolluyoruz.  #t uygulaması ile twit atılıyor
+																
+	 
+mesaj=$(curl http://api.openweathermap.org/data/2.5/weather\?id\=745044\&units\=metric\&APPID\=ed4b3f95a4b618d37d7a2d31c9fbb1cb |
+jsawk 'return this.main.temp')				#burda this kodunun içerisinden jsawk yardımı ile sadece  hava durumunun sıcaklığını alıyoruz.
  
-echo twit başarıyla atıldı
+
+echo istanbul sıcaklık $mesaj				#echo ile istanbulun hava sıcakklığını yazar.
+
+tarih=$(date +%c)					#burda gün,ayın kaçıncı günü,hangi ay,saat ve yılı tarih değişkenine atıyrouz.
+echo $tarih						#echo ile tarihi yazdırır
+
+
+t update " istanbulda sıcaklık: $mesaj $tarih		#tanımlı twitter hesabına  anlık aldığımız  hava sıcaklığını  t uygulaması ile twit attırıyoruz.
+ 
+echo twit başarıyla atıldı                              #echo ile içeriği yazdırır. 
