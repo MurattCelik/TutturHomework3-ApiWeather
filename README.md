@@ -25,7 +25,7 @@ Gerekli olan hava durumun Apisini almamız için herhangi bir hava durumu sitesi
 olmamız gerekiyor.Bu kod için openweathermap isimli siteye üye olduktan sonra oluşturduğumuz 
 uygulama ile hava durumun Apisini alıyoruz.
     
-  **2-Jsawk**
+  **2-Jsawk** https://github.com/micha/jsawk
   
 Aldığımız hava durumun Apisi ile hava durumuyla ilgili her detay veriliyor ama istediğimiz sadece havanın sıcaklığı ve burda
 jsawk devreye giriyor.Jsawk yardımıyla sadece sıcaklığı döndürüyoruz.
