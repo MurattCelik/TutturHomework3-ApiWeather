@@ -43,13 +43,13 @@ Daha sonra Sırayla bizden Api Key VE Secret Key'i girmemizi istiyor.Girdikten s
 vermemiz gerekiyor,verdikten sonra bağlantıyı gerçekleştirmiş bulunmaktayız.
 Shell'de t update deyip istediğimizi yazdığımızda otomatikmen twittera atılıyor.
 Bizim kodda yazmasını istediğimiz içerik biz buraya sıcaklığı yazdırıyoruz ek olarak date komutu ile de tarihide
-yazdırıyoruz
+yazdırıyoruz.
 https://github.com/sferik/t
            
    **5-CronTab Oluşturulması**
    
 Crontab Unix sistemlerinde zaman bazlı çalışan bir görev planlayıcısıdır.
-Bizim yaptırmak isteğimiz işlem ise belirlediğimiz zaman aralıklarında çalşması için CronTab Oluşturmaktır. 
+Bizim yaptırmak isteğimiz işlem ise belirlediğimiz zaman aralıklarında çalşması için CronTab Oluşturmaktır.
 https://github.com/Cron/Cron
      
      
