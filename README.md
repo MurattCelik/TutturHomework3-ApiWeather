@@ -46,7 +46,7 @@ Bizim kodda yazmasını istediğimiz içerik biz buraya sıcaklığı yazdırıy
 yazdırıyoruz.
 https://github.com/sferik/t
            
-   **5-CronTab Oluşturulması**
+  **5-CronTab Oluşturulması**
    
 Crontab Unix sistemlerinde zaman bazlı çalışan bir görev planlayıcısıdır.
 Bizim yaptırmak isteğimiz işlem ise belirlediğimiz zaman aralıklarında çalşması için CronTab Oluşturmaktır.
