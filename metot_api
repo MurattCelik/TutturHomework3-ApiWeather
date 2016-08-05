@@ -1,0 +1,12 @@
+!/bin/bash/
+
+api_mesaj() {
+
+a=$(curl $1 | jsawk 'return this.main.temp')
+b=$($2 +%c)
+t update " istanbulda sıcaklık: $a $b"
+
+}
+
+api_mesaj http://api.openweathermap.org/data/2.5/weather\?id\=745044\&units\=metric\&APPID\=ed4b3f95a4b618d37d7a2d31c9fbb1cb date
+
